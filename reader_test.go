@@ -377,11 +377,6 @@ var otherFiles = []testFile{
 		md5sum: "3f04b090e5d26a1cbeea53c21ebcad03",
 		err:    nil,
 	},
-	{
-		file:   "zeros-100mb.xz",
-		md5sum: "0f86d7c5a6180cf9584c1d21144d85b0",
-		err:    nil,
-	},
 }
 
 func openTestFile(file string) (*os.File, error) {
